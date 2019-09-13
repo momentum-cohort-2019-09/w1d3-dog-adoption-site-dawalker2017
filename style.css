@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.veiwportmargin {
+    max-width: 100rem;
+}
+
+
+/* BEGIN Homepage Header */
+
+.hometitlebanner {
+    background-color: #053e73;
+    padding: 20px 0 20px 0;
+    margin: 0;
+}
+
+.hometitletext {
+    color: white;
+    font: bold 2rem "Open Sans";
+    margin-left: 3rem;
+}
+
+
+/* END Homepage Header */
+
+
+/* BEGIN Homepage Text */
+
+main {
+    font: 1rem "Open Sans";
+    margin: 1.5rem 3rem 1.5rem 3rem;
+    line-height: 3rem;
+    margin-bottom: 0rem;
+}
+
+
+/* END Homepage Text */
+
+
+/* BEGIN Checklist Input */
+
+.inputcontainer {
+    padding-left: 1rem;
+    justify-content: baseline;
+    display: flex;
+    background: border-box;
+    background-color: #f0edee;
+}
+
+.field {
+    margin: 1rem;
+    line-height: 1.5rem;
+}
+
+.field ul {
+    padding-left: 1rem;
+    list-style: none;
+    text-align: left;
+}
+
+
+/* END Checklist Input */
+
+
+/* BEGIN Dog Profiles */
+
+img {
+    max-width: 100%;
+}
+
+.picturescontainer {
+    /* whole container */
+    flex-wrap: wrap;
+    width: auto;
+    justify-content: space-evenly;
+    display: flex;
+    background: border-box;
+    background-color: white;
+}
+
+.picture {
+    /* photos */
+    background: border-box;
+    width: 22rem;
+    margin: 1rem;
+    padding: 0;
+    justify-content: stretch;
+}
+
+.picture img {
+    display: block;
+}
+
+.picturetext h4 {
+    /* names */
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font: 25px Oswald;
+}
+
+.picturetext ul {
+    /* descriptions container (ul's) */
+    background-color: white;
+    font-display: "Open sans";
+    align-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: auto;
+}
+
+.picturetext li {
+    /* descriptions only (li's) */
+    background-color: rgb(138, 221, 238);
+    border-radius: 2rem;
+    font: 13px "Open sans";
+    margin: 0.2rem 0.1rem;
+    padding: 0.6rem;
+    line-height: 0.01em;
+    width: auto;
+}
+
+
+/* END Dog Profiles */
+
+
+/* BEGIN Footer */
+
+.footer {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.donate {
+    display: flex;
+    background: border-box;
+    background-image: url("starter_files/images/donation.jpg");
+    background-image: linear-gradient(rgba(168, 167, 237, 0.5), rgba(168, 167, 237, 0.5));
+}
+
+
+/* END Footer */
